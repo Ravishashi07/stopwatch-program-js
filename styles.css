@@ -141,10 +141,10 @@ body {
   font-weight: 500;
   align-self: stretch;
 }
-.fa-trash {
+svg {
   transition: all 0.15s ease;
 }
-.fa-trash:hover {
+svg:hover {
   transform: scale(1.09);
 }
 .laps::-webkit-scrollbar {
