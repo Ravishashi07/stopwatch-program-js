@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-:root {
-  --primary: #7d2ae8;
-  --secondary: #ffffff;
-}
 
+:root {
+  --primary: #6a0dad;   
+  --secondary: #ffffff;  
+}
 * {
   margin: 0;
   padding: 0;
@@ -146,4 +146,22 @@ body {
 }
 .fa-trash:hover {
   transform: scale(1.09);
+}
+.laps::-webkit-scrollbar {
+  width: 13px;
+}
+
+.laps::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+.laps::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+  border: 2px solid #f0f0f0;
+}
+
+.laps::-webkit-scrollbar-thumb:hover {
+  background: #6101c1; 
 }
